@@ -1,4 +1,4 @@
-#A collection of papers on divergence and quality diversity
+A collection of papers on divergence and quality diversity
 
 Novelty search
 
