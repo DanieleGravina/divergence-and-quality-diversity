@@ -39,3 +39,5 @@ http://antoniosliapis.com/papers/surprise_search_beyond_objectives_and_novelty.p
 Minimal Criterion Coevolution
 
 http://eplex.cs.ucf.edu/papers/brant_gecco17.pdf
+
+Source code: https://github.com/jbrant/MinimalCriterionCoevolution/releases/
