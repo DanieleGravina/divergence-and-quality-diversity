@@ -28,7 +28,7 @@ Constrained novelty search
 
 http://antoniosliapis.com/papers/constrained_novelty_search.pdf
 
-DeleNox
+DeLeNoX
 
 http://julian.togelius.com/Liapis2013Transforming.pdf
 
