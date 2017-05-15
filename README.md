@@ -5,8 +5,6 @@ A collection of papers on divergence and quality diversity
 ## Table of Contents
 
 - [What is it?](#what-is-it)
-- [What is divergent search](#what-divergent)
-- [What is quality diversity](#what-quality-diversity)
 - [Novelty Search](#novelty-search)
 - [Novelty Search Multiobjectivation](#novelty-search-multiobjectivation)
 - [Novelty Search Local Competition](#novelty-search-local-competition)
@@ -16,13 +14,6 @@ A collection of papers on divergence and quality diversity
 - [DeLeNoX](#deLeNoX)
 - [Surprise Search](#surprise-search)
 - [Minimal Criterion Coevolution](#minimal-criterion-coevolution)
-
-
-## What is divergent search?
-
-
-
-## What is quality diversity?
 
 
 ## Novelty search
