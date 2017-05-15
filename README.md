@@ -2,15 +2,18 @@
 
 A collection of papers on divergence and quality diversity
 
-## What is divergent search?
-
-## What is quality diversity?
-
 ## Table of Contents
 
-- [What is it?](#what-is-itsss
+- [What is it?](#what-is-it)
 - [What is divergent search](#what-divergent)
 - [What is quality diversity](#what-quality-diversity)
+- [Novelty Search](#novelty-search)
+
+## What is divergent search?
+
+
+
+## What is quality diversity?
 
 
 ## Novelty search
@@ -19,7 +22,7 @@ http://eplex.cs.ucf.edu/papers/lehman_ecj11.pdf
 
 source code : http://eplex.cs.ucf.edu/software/NoveltySearchC++.zip
 
-<p>			
+<p align="center">			
 @article{lehman2011abandoning,<BR/>	
 title={Abandoning objectives: Evolution through the search for novelty alone},<BR/>
   author={Lehman, Joel and Stanley, Kenneth O},<BR/>
