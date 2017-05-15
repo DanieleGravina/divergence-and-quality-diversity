@@ -1,4 +1,17 @@
+## What is it?
+
 A collection of papers on divergence and quality diversity
+
+## What is divergent search?
+
+## What is quality diversity?
+
+## Table of Contents
+
+- [What is it?](#what-is-it)
+- [What is divergent search](#what-divergent)
+- [What is quality diversity](#what-quality-diversity)
+
 
 Novelty search
 
