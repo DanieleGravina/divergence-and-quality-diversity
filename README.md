@@ -8,7 +8,7 @@ A collection of papers on divergence and quality diversity
 
 ## Table of Contents
 
-- [What is it?](#what-is-it)
+- [What is it?](#what-is-itsss
 - [What is divergent search](#what-divergent)
 - [What is quality diversity](#what-quality-diversity)
 
@@ -18,6 +18,18 @@ Novelty search
 http://eplex.cs.ucf.edu/papers/lehman_ecj11.pdf
 
 source code : http://eplex.cs.ucf.edu/software/NoveltySearchC++.zip
+
+<p>			
+@article{lehman2011abandoning,<BR/>	
+title={Abandoning objectives: Evolution through the search for novelty alone},<BR/>
+  author={Lehman, Joel and Stanley, Kenneth O},<BR/>
+  journal={Evolutionary computation},<BR/>
+  volume={19},<BR/>
+  number={2},<BR/>
+  pages={189--223},<BR/>
+  year={2011},<BR/>
+  publisher={MIT Press}	}<BR/>
+</p>
 
 Novelty Search Multiobjectivation
 
