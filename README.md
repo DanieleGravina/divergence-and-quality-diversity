@@ -8,12 +8,12 @@ A collection of papers on divergence and quality diversity
 - [What is divergent search](#what-divergent)
 - [What is quality diversity](#what-quality-diversity)
 - [Novelty Search](#novelty-search)
-- [Novelty Search Multiobjectivation] (#novelty-search-multi)
+- [Novelty Search Multiobjectivation] (#novelty-search-multiobjectivation)
 - [Novelty Search Local Competition] (#novelty-search-local-competition)
 - [Map-elites] (#map-elites)
 - [Quality diversity] (#quality-diversity)
 - [Constrained novelty search] (#constrained-novelty-search)
-- [DeLeNoX] (#DeLeNoX)
+- [DeLeNoX] (#deLeNoX)
 - [Surprise Search] (#surprise-search)
 - [Minimal Criterion Coevolution] (#minimal-criterion-coevolution)
 
@@ -43,15 +43,15 @@ title={Abandoning objectives: Evolution through the search for novelty alone},<B
   publisher={MIT Press}	}<BR/>
 </p>
 
-## Novelty Search Multiobjectivation
+## Novelty search multiobjectivation
 
 https://www.researchgate.net/publication/225729412_Novelty-Based_Multiobjectivization
 
-## Novelty Search Local Competition
+## Novelty search local competition
 
 https://pdfs.semanticscholar.org/6d45/9da1ff73ec7225e92842341605e2b90d0da2.pdf
 
-## Map-elites
+## Map elites
 
 https://arxiv.org/pdf/1504.04909.pdf
 
@@ -69,11 +69,11 @@ http://antoniosliapis.com/papers/constrained_novelty_search.pdf
 
 http://julian.togelius.com/Liapis2013Transforming.pdf
 
-## Surprise Search
+## Surprise search
 
 http://antoniosliapis.com/papers/surprise_search_beyond_objectives_and_novelty.pdf
 
-## Minimal Criterion Coevolution
+## Minimal criterion coevolution
 
 http://eplex.cs.ucf.edu/papers/brant_gecco17.pdf
 
