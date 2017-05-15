@@ -22,7 +22,7 @@ http://eplex.cs.ucf.edu/papers/lehman_ecj11.pdf
 
 source code : http://eplex.cs.ucf.edu/software/NoveltySearchC++.zip
 
-<p align="center">			
+<p align="left">			
 @article{lehman2011abandoning,<BR/>	
 title={Abandoning objectives: Evolution through the search for novelty alone},<BR/>
   author={Lehman, Joel and Stanley, Kenneth O},<BR/>
