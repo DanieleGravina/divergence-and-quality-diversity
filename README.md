@@ -8,14 +8,14 @@ A collection of papers on divergence and quality diversity
 - [What is divergent search](#what-divergent)
 - [What is quality diversity](#what-quality-diversity)
 - [Novelty Search](#novelty-search)
-- [Novelty Search Multiobjectivation] (#novelty-search-multiobjectivation)
-- [Novelty Search Local Competition] (#novelty-search-local-competition)
-- [Map-elites] (#map-elites)
-- [Quality diversity] (#quality-diversity)
-- [Constrained novelty search] (#constrained-novelty-search)
-- [DeLeNoX] (#deLeNoX)
-- [Surprise Search] (#surprise-search)
-- [Minimal Criterion Coevolution] (#minimal-criterion-coevolution)
+- [Novelty Search Multiobjectivation](#novelty-search-multiobjectivation)
+- [Novelty Search Local Competition](#novelty-search-local-competition)
+- [Map-elites](#map-elites)
+- [Quality diversity](#quality-diversity)
+- [Constrained novelty search](#constrained-novelty-search)
+- [DeLeNoX](#deLeNoX)
+- [Surprise Search](#surprise-search)
+- [Minimal Criterion Coevolution](#minimal-criterion-coevolution)
 
 
 ## What is divergent search?
