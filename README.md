@@ -13,7 +13,7 @@ A collection of papers on divergence and quality diversity
 - [What is quality diversity](#what-quality-diversity)
 
 
-Novelty search
+## Novelty search
 
 http://eplex.cs.ucf.edu/papers/lehman_ecj11.pdf
 
@@ -31,37 +31,37 @@ title={Abandoning objectives: Evolution through the search for novelty alone},<B
   publisher={MIT Press}	}<BR/>
 </p>
 
-Novelty Search Multiobjectivation
+## Novelty Search Multiobjectivation
 
 https://www.researchgate.net/publication/225729412_Novelty-Based_Multiobjectivization
 
-Novelty Search Local Competition
+## Novelty Search Local Competition
 
 https://pdfs.semanticscholar.org/6d45/9da1ff73ec7225e92842341605e2b90d0da2.pdf
 
-Map-elites
+## Map-elites
 
 https://arxiv.org/pdf/1504.04909.pdf
 
 source code: https://github.com/sferes2/map_elites
 
-Quality diversity
+## Quality diversity
 
 http://journal.frontiersin.org/article/10.3389/frobt.2016.00040/pdf
 
-Constrained novelty search
+## Constrained novelty search
 
 http://antoniosliapis.com/papers/constrained_novelty_search.pdf
 
-DeLeNoX
+## DeLeNoX
 
 http://julian.togelius.com/Liapis2013Transforming.pdf
 
-Surprise Search
+## Surprise Search
 
 http://antoniosliapis.com/papers/surprise_search_beyond_objectives_and_novelty.pdf
 
-Minimal Criterion Coevolution
+## Minimal Criterion Coevolution
 
 http://eplex.cs.ucf.edu/papers/brant_gecco17.pdf
 
