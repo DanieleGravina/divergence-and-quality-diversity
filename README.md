@@ -61,6 +61,10 @@ title={Abandoning objectives: Evolution through the search for novelty alone},<b
 
 ## Novelty search multiobjectivation
 
+Abstract
+
+<blockquote> Novelty search is a recent and promising approach to evolve neurocontrollers, especially to drive robots. The main idea is to maximize the novelty of behaviors instead of the efficiency. However, abandoning the efficiency objective(s) may be too radical in many contexts. In this paper, a Pareto-based multi-objective evolutionary algorithmis employed to reconcile novelty search with objective-based optimization by following a multiobjectivization process. Several multiobjectivizations based on behavioral novelty and on behavioral diversity are compared on a maze navigation task. Results show that the bi-objective variant “Novelty + Fitness” is better at fine-tuning behaviors than basic novelty search, while keeping a comparable number of iterations to converge. </blockquote>
+
 https://www.researchgate.net/publication/225729412_Novelty-Based_Multiobjectivization
 
 @incollection{mouret2011novelty,<br>
