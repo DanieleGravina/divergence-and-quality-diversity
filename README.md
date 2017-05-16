@@ -48,14 +48,14 @@ source code : http://eplex.cs.ucf.edu/software/NoveltySearchC++.zip
 http://eplex.cs.ucf.edu/noveltysearch/userspage/
 
 		
-@article{lehman2011abandoning,
-title={Abandoning objectives: Evolution through the search for novelty alone},
-  author={Lehman, Joel and Stanley, Kenneth O},
-  journal={Evolutionary computation},
-  volume={19},
-  number={2},
-  pages={189--223},
-  year={2011},
+@article{lehman2011abandoning,<br>
+title={Abandoning objectives: Evolution through the search for novelty alone},<br>
+  author={Lehman, Joel and Stanley, Kenneth O},<br>
+  journal={Evolutionary computation},<br>
+  volume={19},<br>
+  number={2},<br>
+  pages={189--223},<br>
+  year={2011},<br>
   publisher={MIT Press}	}
 
 
