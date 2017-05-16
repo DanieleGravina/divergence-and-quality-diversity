@@ -18,6 +18,29 @@ A collection of papers on divergence and quality diversity
 
 ## Novelty search
 
+Abstract
+
+<blockquote> In evolutionary computation, the fitness function normally measures
+progress towards an objective in the search space, effectively acting as an objective
+function. Through deception, such objective functions may actually prevent
+the objective from being reached. While methods exist to mitigate deception,
+they leave the underlying pathology untreated: Objective functions themselves
+may actively misdirect search towards dead ends. This paper proposes an
+approach to circumventing deception that also yields a new perspective on
+open-ended evolution: Instead of either explicitly seeking an objective or
+modeling natural evolution to capture open-endedness, the idea is to simply
+search for behavioral novelty. Even in an objective-based problem, such novelty
+search ignores the objective. Because many points in the search space collapse
+to a single behavior, the search for novelty is often feasible. Furthermore,
+because there are only so many simple behaviors, the search for novelty leads
+to increasing complexity. By decoupling open-ended search from artificial life
+worlds, the search for novelty is applicable to real world problems. Counterintuitively,
+in the maze navigation and biped walking tasks in this paper,
+novelty search significantly outperforms objective-based search, suggesting the
+strange conclusion that some problems are best solved by methods that ignore
+the objective. The main lesson is the inherent limitation of the objective-based
+paradigm and the unexploited opportunity to guide search through other means. </blockquote>
+
 http://eplex.cs.ucf.edu/papers/lehman_ecj11.pdf
 
 source code : http://eplex.cs.ucf.edu/software/NoveltySearchC++.zip
