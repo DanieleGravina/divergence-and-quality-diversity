@@ -56,6 +56,44 @@ creative outcomes or unconventional solutions to problems.
 
 ## Quality Diversity?
 
+In a true departure from conventional optimization, which
+seeks only the single best-performing solution, a new search
+paradigm has begun to emerge within EC where the effort focuses
+instead on finding various viable solutions, similar to how evolution
+in nature has discovered over billions of years a vast assortment
+of unique species, each of which are capable of orchestrating
+the complex system of biological processes necessary to sustain
+life. More precisely, the goal of this new type of search, called
+quality diversity (QD), is to find a maximally diverse collection
+of individuals (with respect to a space of possible behaviors) in
+which each member is as high performing as possible. In service
+of this goal, QD algorithms carefully balance a drive toward
+increasing diversity with localized searches for quality in an
+analogy with nature where species face the strongest competition
+from within their own niche. In this way, search can move toward
+different behaviors, while simultaneously improving behaviors
+that have already been discovered.
+An important aspect of QD that differentiates it from other
+approaches designed to return multiple results is that in QD,
+diversity between individuals is measured with respect to their
+behavior (the actions and features of an individual over the
+course of its lifetime). The experimenter selects some subset of
+behavioral features of interest to form a behavior characterization
+(BC), thus defining a space of possible behaviors. The assumption
+in QD is that all parts of the behavior space are considered
+equally important. This assumption contrasts with non-QD
+approaches that assign priority to higher-performing regions,
+which draw inspiration from the idea of returning multiple local
+optima. Instead, the goal of QD is to sample all regions of the behavior space (at some
+granularity), returning the best possible performance within each
+region. In other words, diversity takes priority over quality1
+and therefore QD algorithms must be careful to avoid driving search
+away from lower-performing regions. More formally, the behavior
+space must be divided into t niches {N1, …, Nt} that together
+cover the entire space. That is, every point in the behavior space
+belongs to some niche Ni. Then, the task of QD is to maximize a
+quality measure Q within every niche.
+
 
 ## Novelty search
 
