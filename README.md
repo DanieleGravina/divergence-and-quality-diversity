@@ -17,7 +17,7 @@ A collection of papers on divergence and quality diversity
 - [Surprise Search](#surprise-search)
 - [Minimal Criterion Coevolution](#minimal-criterion-coevolution)
 
-## Divergent Search
+## Divergent Search?
 
 The widely accepted approach in search is to design a
 function that will reward solutions with respect to a particular
@@ -54,7 +54,7 @@ particular dimensions of creativity such as value and novelty
 define dominant directions for the search towards
 creative outcomes or unconventional solutions to problems.
 
-## Quality Diversity
+## Quality Diversity?
 
 
 ## Novelty search
