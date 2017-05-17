@@ -89,14 +89,14 @@ source code : http://eplex.cs.ucf.edu/software/NoveltySearchC++.zip
 http://eplex.cs.ucf.edu/noveltysearch/userspage/
 
 ```		
-@article{lehman2011abandoning,<br>
-title={Abandoning objectives: Evolution through the search for novelty alone},<br>
-  author={Lehman, Joel and Stanley, Kenneth O},<br>
-  journal={Evolutionary computation},<br>
-  volume={19},<br>
-  number={2},<br>
-  pages={189--223},<br>
-  year={2011},<br>
+@article{lehman2011abandoning,
+title={Abandoning objectives: Evolution through the search for novelty alone},
+  author={Lehman, Joel and Stanley, Kenneth O},
+  journal={Evolutionary computation},
+  volume={19},
+  number={2},
+  pages={189--223},
+  year={2011},
   publisher={MIT Press}	}
 ```
 
@@ -108,14 +108,16 @@ title={Abandoning objectives: Evolution through the search for novelty alone},<b
 
 https://www.researchgate.net/publication/225729412_Novelty-Based_Multiobjectivization
 
-@incollection{mouret2011novelty,<br>
-  title={Novelty-based multiobjectivization},<br>
-  author={Mouret, Jean-Baptiste},<br>
-  booktitle={New horizons in evolutionary robotics},<br>
-  pages={139--154},<br>
-  year={2011},<br>
-  publisher={Springer}<br>
+```
+@incollection{mouret2011novelty,
+  title={Novelty-based multiobjectivization},
+  author={Mouret, Jean-Baptiste},
+  booktitle={New horizons in evolutionary robotics},
+  pages={139--154},
+  year={2011},
+  publisher={Springer}
 }
+```
 
 ## Novelty search local competition
 
@@ -148,14 +150,16 @@ to combining novelty search with pressure to achieve.</blockquote>
 
 https://pdfs.semanticscholar.org/6d45/9da1ff73ec7225e92842341605e2b90d0da2.pdf
 
-@inproceedings{lehman2011evolving,<br>
-  title={Evolving a diversity of virtual creatures through novelty search and local competition},<br>
-  author={Lehman, Joel and Stanley, Kenneth O},<br>
-  booktitle={Proceedings of the 13th annual conference on Genetic and evolutionary computation},<br>
-  pages={211--218},<br>
-  year={2011},<br>
-  organization={ACM}<br>
+```
+@inproceedings{lehman2011evolving,
+  title={Evolving a diversity of virtual creatures through novelty search and local competition},
+  author={Lehman, Joel and Stanley, Kenneth O},
+  booktitle={Proceedings of the 13th annual conference on Genetic and evolutionary computation},
+  pages={211--218},
+  year={2011},
+  organization={ACM}
 }
+```
 
 ## Map elites
 
@@ -199,12 +203,14 @@ fields.</blockquote>
 
 https://arxiv.org/pdf/1504.04909.pdf
 
-@article{mouret2015illuminating,<br>
-  title={Illuminating search spaces by mapping elites},<br>
-  author={Mouret, Jean-Baptiste and Clune, Jeff},<br>
-  journal={arXiv preprint arXiv:1504.04909},<br>
+```
+@article{mouret2015illuminating,
+  title={Illuminating search spaces by mapping elites},
+  author={Mouret, Jean-Baptiste and Clune, Jeff},
+  journal={arXiv preprint arXiv:1504.04909},
   year={2015}<br>
 }
+```
 
 source code: https://github.com/sferes2/map_elites
 
@@ -234,15 +240,17 @@ that is not necessarily sufficient for generating both quality and diversity at 
 
 http://journal.frontiersin.org/article/10.3389/frobt.2016.00040/pdf
 
-@article{pugh2016quality,<br>
-  title={Quality diversity: A new frontier for evolutionary computation},<br>
-  author={Pugh, Justin K and Soros, Lisa B and Stanley, Kenneth O},<br>
-  journal={Frontiers in Robotics and AI},<br>
-  volume={3},<br>
-  pages={40},<br>
-  year={2016},<br>
-  publisher={Frontiers}<br>
+```
+@article{pugh2016quality,
+  title={Quality diversity: A new frontier for evolutionary computation},
+  author={Pugh, Justin K and Soros, Lisa B and Stanley, Kenneth O},
+  journal={Frontiers in Robotics and AI},
+  volume={3},
+  pages={40},
+  year={2016},
+  publisher={Frontiers}
 }
+```
 
 ## Constrained novelty search
 
@@ -271,16 +279,18 @@ http://antoniosliapis.com/papers/constrained_novelty_search.pdf
 
 http://antoniosliapis.com/research/novsearch.php
 
-@article{liapis2015constrained,<br>
-  title={Constrained novelty search: A study on game content generation},<br>
-  author={Liapis, Antonios and Yannakakis, Georgios N and Togelius, Julian},<br>
-  journal={Evolutionary computation},<br>
-  volume={23},<br>
-  number={1},<br>
-  pages={101--129},<br>
-  year={2015},<br>
-  publisher={MIT Press}<br>
+```
+@article{liapis2015constrained,
+  title={Constrained novelty search: A study on game content generation},
+  author={Liapis, Antonios and Yannakakis, Georgios N and Togelius, Julian},
+  journal={Evolutionary computation},
+  volume={23},
+  number={1},
+  pages={101--129},
+  year={2015},
+  publisher={MIT Press}
 }
+```
 
 ## DeLeNoX
 
@@ -314,14 +324,16 @@ http://julian.togelius.com/Liapis2013Transforming.pdf
 
 http://antoniosliapis.com/research/novsearch.php
 
-@inproceedings{liapis2013transforming,<br>
-  title={Transforming exploratory creativity with DeLeNoX},<br>
-  author={Liapis, Antonios and Mart{\i}nez, H{\'e}ctor P and Togelius, Julian and Yannakakis, Georgios N},<br>
-  booktitle={Proceedings of the Fourth International Conference on Computational Creativity},<br>
-  pages={56--63},<br>
-  year={2013},<br>
-  organization={AAAI Press}<br>
+```
+@inproceedings{liapis2013transforming,
+  title={Transforming exploratory creativity with DeLeNoX},
+  author={Liapis, Antonios and Mart{\i}nez, H{\'e}ctor P and Togelius, Julian and Yannakakis, Georgios N},
+  booktitle={Proceedings of the Fourth International Conference on Computational Creativity},
+  pages={56--63},
+  year={2013},
+  organization={AAAI Press}
 }
+```
 
 ## Surprise search
 
@@ -350,14 +362,16 @@ http://antoniosliapis.com/papers/surprise_search_beyond_objectives_and_novelty.p
 
 http://www.autogamedesign.eu/surprise-search
 
-@inproceedings{gravina2016surprise,<br>
-  title={Surprise search: Beyond objectives and novelty},<br>
-  author={Gravina, Daniele and Liapis, Antonios and Yannakakis, Georgios},<br>
-  booktitle={Proceedings of the 2016 on Genetic and Evolutionary Computation Conference},<br>
-  pages={677--684},<br>
-  year={2016},<br>
-  organization={ACM}<br>
+```
+@inproceedings{gravina2016surprise,
+  title={Surprise search: Beyond objectives and novelty},
+  author={Gravina, Daniele and Liapis, Antonios and Yannakakis, Georgios},
+  booktitle={Proceedings of the 2016 on Genetic and Evolutionary Computation Conference},
+  pages={677--684},
+  year={2016},
+  organization={ACM}
 }
+```
 
 ## Minimal criterion coevolution
 
@@ -390,12 +404,14 @@ towards genuinely open-ended algorithms.
 
 http://eplex.cs.ucf.edu/papers/brant_gecco17.pdf
 
-@inproceedings{brant2017minimal,<br>
-  title={Minimal Criterion Coevolution},<br>
-  author={Brant, Jonathan C and  Stanley, Kenneth O},<br>
-  booktitle={Proceedings of the 2017 on Genetic and Evolutionary Computation Conference},<br>
-  year={2017},<br>
-  organization={ACM}<br>
+```
+@inproceedings{brant2017minimal,
+  title={Minimal Criterion Coevolution},
+  author={Brant, Jonathan C and  Stanley, Kenneth O},
+  booktitle={Proceedings of the 2017 on Genetic and Evolutionary Computation Conference},
+  year={2017},
+  organization={ACM}
 }
+```
 
 Source code: https://github.com/jbrant/MinimalCriterionCoevolution/releases/
