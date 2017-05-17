@@ -386,7 +386,7 @@ http://www.autogamedesign.eu/surprise-search
 Recent studies have emphasized the merits of search processes
 that lack overarching objectives, instead promoting divergence
 by rewarding behavioral novelty. While this less objective search
-paradigm is more open-ended and divergent, it still diers signicantly
+paradigm is more open-ended and divergent, it still differs significantly
 from nature’s mechanism of divergence. Rather than
 measuring novelty explicitly, nature is guided by a single, fundamental
 constraint: survive long enough to reproduce. Surprisingly,
@@ -400,7 +400,7 @@ produce results that are both functional and diverse even without
 any behavior characterization or novelty archive. To test this new
 approach, a novel maze navigation domain is introduced wherein
 evolved agents must learn to navigate mazes whose structures are
-simultaneously coevolving and increasing in complexity. e result
+simultaneously coevolving and increasing in complexity. The result
 is a broad range of maze topologies and successful agent trajectories
 in a single run, thereby suggesting the viability of minimal criterion
 coevolution as a new approach to non-objective search and a step
