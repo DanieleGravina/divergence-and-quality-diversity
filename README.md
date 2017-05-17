@@ -1,6 +1,6 @@
 ## What is it?
 
-A collection of papers on divergence and quality diversity
+A collection of papers on divergence and quality diversity.
 
 ## Table of Contents
 
@@ -16,51 +16,6 @@ A collection of papers on divergence and quality diversity
 - [DeLeNoX](#deLeNoX)
 - [Surprise Search](#surprise-search)
 - [Minimal Criterion Coevolution](#minimal-criterion-coevolution)
-
-## Divergent Search?
-
-The widely accepted approach in search is to design a
-function that will reward solutions with respect to a particular
-objective that characterizes their goodness: better
-solutions have higher values with respect to that objective.
-In evolutionary computation the fitness function
-encapsulates the principle of evolutionary pressure for fitting
-(adapting) within the environment. While it is natural
-to think that measuring progress in terms of fitness
-is the most appropriate approach towards finding a high-fit
-solution, recent findings from evolutionary divergent search
-suggest that explicit objective (fitness) design can be
-detrimental to evolutionary search. Instead, aspects of divergent
-search beyond objectives — such as novelty — have
-proven more efficient in a number of tasks such as robot
-navigation and locomotion.
-The effectiveness of a fitness function in EC is largely affected by 
-the multimodality of the search space and the local optima that may
-exist in the fitness landscape. In turn, a fitness function
-attributes deceptive characteristics to the search space
-such as roughness and epistasis. On that basis, an ill-posed
-fitness acts against the problem’s objective as it drives the
-algorithm to undesired directions in the search space.
-While search towards a particular objective is a dominant
-practice within EC and machine learning at large, no explicit
-objectives are considered in open-ended evolution studies
-within artificial life. Instead, it is typical to consider
-open-ended search for e.g. survival. A large body of research within 
-computational creativity and generative systems focuses on the
-creative capacity of search rather than on the objectives,
-since creativity is a human-centric and highly subjective notion
-that cannot be easily formalized. Instead of objectives,
-particular dimensions of creativity such as value and novelty
-define dominant directions for the search towards
-creative outcomes or unconventional solutions to problems.
-
-## Quality Diversity?
-
-While divergence search completely ignores the objective of the problem, 
-Quality Diversity (QD) is a new type of search for maximally diverse collections of individuals,
-in which each member has the maximum fitness possible.
-In other words, QD algorithms try to find a balance between the diversity of the behaviours explored 
-and the quality of the niche during the search process.
 
 ## Novelty search
 
