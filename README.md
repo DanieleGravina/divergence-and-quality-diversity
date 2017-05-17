@@ -45,9 +45,8 @@ While search towards a particular objective is a dominant
 practice within EC and machine learning at large, no explicit
 objectives are considered in open-ended evolution studies
 within artificial life. Instead, it is typical to consider
-open-ended search for e.g. survival. Most importantly
-for this paper, a large body of research within computational
-creativity and generative systems focuses on the
+open-ended search for e.g. survival. A large body of research within 
+computational creativity and generative systems focuses on the
 creative capacity of search rather than on the objectives,
 since creativity is a human-centric and highly subjective notion
 that cannot be easily formalized. Instead of objectives,
