@@ -18,7 +18,7 @@ A collection of papers on divergence and quality diversity
 
 ## Novelty search
 
-Abstract
+<b>Abstract:</b>
 
 <blockquote> In evolutionary computation, the fitness function normally measures
 progress towards an objective in the search space, effectively acting as an objective
@@ -61,7 +61,7 @@ title={Abandoning objectives: Evolution through the search for novelty alone},<b
 
 ## Novelty search multiobjectivation
 
-Abstract
+<b>Abstract:</b>
 
 <blockquote> Novelty search is a recent and promising approach to evolve neurocontrollers, especially to drive robots. The main idea is to maximize the novelty of behaviors instead of the efficiency. However, abandoning the efficiency objective(s) may be too radical in many contexts. In this paper, a Pareto-based multi-objective evolutionary algorithmis employed to reconcile novelty search with objective-based optimization by following a multiobjectivization process. Several multiobjectivizations based on behavioral novelty and on behavioral diversity are compared on a maze navigation task. Results show that the bi-objective variant “Novelty + Fitness” is better at fine-tuning behaviors than basic novelty search, while keeping a comparable number of iterations to converge. </blockquote>
 
@@ -78,6 +78,33 @@ https://www.researchgate.net/publication/225729412_Novelty-Based_Multiobjectiviz
 
 ## Novelty search local competition
 
+<b>Abstract:</b>
+
+<blockquote> An ambitious challenge in artificial life is to craft an evolutionary
+process that discovers a wide diversity of welladapted
+virtual creatures within a single run. Unlike in nature,
+evolving creatures in virtual worlds tend to converge
+to a single morphology because selection therein greedily rewards
+the morphology that is easiest to exploit. However,
+novelty search, a technique that explicitly rewards diverging,
+can potentially mitigate such convergence. Thus in this
+paper an existing creature evolution platform is extended
+with multi-objective search that balances drives for both
+novelty and performance. However, there are different ways
+to combine performance-driven search and novelty search.
+The suggested approach is to provide evolution with both a
+novelty objective that encourages diverse morphologies and
+a local competition objective that rewards individuals outperforming
+those most similar in morphology. The results
+in an experiment evolving locomoting virtual creatures show
+that novelty search with local competition discovers more
+functional morphological diversity within a single run than
+models with global competition, which are more predisposed
+to converge. The conclusions are that novelty search with
+local competition may complement recent advances in evolving
+virtual creatures and may in general be a principled approach
+to combining novelty search with pressure to achieve.</blockquote>
+
 https://pdfs.semanticscholar.org/6d45/9da1ff73ec7225e92842341605e2b90d0da2.pdf
 
 @inproceedings{lehman2011evolving,<br>
@@ -90,6 +117,44 @@ https://pdfs.semanticscholar.org/6d45/9da1ff73ec7225e92842341605e2b90d0da2.pdf
 }
 
 ## Map elites
+
+<b>Abstract:</b>
+
+<blockquote>Nearly all science and engineering fields use search algorithms,
+which automatically explore a search space to
+find high-performing solutions: chemists search through the
+space of molecules to discover new drugs; engineers search
+for stronger, cheaper, safer designs, scientists search for
+models that best explain data, etc. The goal of search algorithms
+has traditionally been to return the single highestperforming
+solution in a search space. Here we describe a
+new, fundamentally different type of algorithm that is more
+useful because it provides a holistic view of how highperforming
+solutions are distributed throughout a search
+space. It creates a map of high-performing solutions at each
+point in a space defined by dimensions of variation that
+a user gets to choose. This Multi-dimensional Archive of
+Phenotypic Elites (MAP-Elites) algorithm illuminates search
+spaces, allowing researchers to understand how interesting
+attributes of solutions combine to affect performance,
+either positively or, equally of interest, negatively. For example,
+a drug company may wish to understand how performance
+changes as the size of molecules and their costto-produce
+vary. MAP-Elites produces a large diversity of
+high-performing, yet qualitatively different solutions, which
+can be more helpful than a single, high-performing solution.
+Interestingly, because MAP-Elites explores more of the
+search space, it also tends to find a better overall solution
+than state-of-the-art search algorithms. We demonstrate the
+benefits of this new algorithm in three different problem domains
+ranging from producing modular neural networks to
+designing simulated and real soft robots. Because MAPElites
+(1) illuminates the relationship between performance
+and dimensions of interest in solutions, (2) returns a set
+of high-performing, yet diverse solutions, and (3) improves
+the state-of-the-art for finding a single, best solution, it will
+catalyze advances throughout all science and engineering
+fields.</blockquote>
 
 https://arxiv.org/pdf/1504.04909.pdf
 
@@ -104,6 +169,28 @@ source code: https://github.com/sferes2/map_elites
 
 ## Quality diversity
 
+<b>Abstract:</b>
+
+<blockquote>While evolutionary computation and evolutionary robotics take inspiration from nature,
+they have long focused mainly on problems of performance optimization. Yet, evolution
+in nature can be interpreted as more nuanced than a process of simple optimization. In
+particular, natural evolution is a divergent search that optimizes locally within each niche
+as it simultaneously diversifies. This tendency to discover both quality and diversity at the
+same time differs from many of the conventional algorithms of machine learning, and also
+thereby suggests a different foundation for inferring the approach of greatest potential
+for evolutionary algorithms. In fact, several recent evolutionary algorithms called quality
+diversity (QD) algorithms (e.g., novelty search with local competition and MAP-Elites)
+have drawn inspiration from this more nuanced view, aiming to fill a space of possibilities
+with the best possible example of each type of achievable behavior. The result is a new
+class of algorithms that return an archive of diverse, high-quality behaviors in a single
+run. The aim in this paper is to study the application of QD algorithms in challenging
+environments (in particular complex mazes) to establish their best practices for ambitious
+domains in the future. In addition to providing insight into cases when QD succeeds and
+fails, a new approach is investigated that hybridizes multiple views of behaviors (called
+behavior characterizations) in the same run, which succeeds in overcoming some of the
+challenges associated with searching for QD with respect to a behavior characterization
+that is not necessarily sufficient for generating both quality and diversity at the same time.</blockquote>
+
 http://journal.frontiersin.org/article/10.3389/frobt.2016.00040/pdf
 
 @article{pugh2016quality,<br>
@@ -117,6 +204,27 @@ http://journal.frontiersin.org/article/10.3389/frobt.2016.00040/pdf
 }
 
 ## Constrained novelty search
+
+<b>Abstract:</b>
+
+<blockquote>Novelty search is a recent algorithm geared towards exploring search spaces without
+regard to objectives. When the presence of constraints divides a search space into feasible
+space and infeasible space, interesting implications arise regarding how novelty
+search explores such spaces. This paper elaborates on the problem of constrained novelty
+search and proposes two novelty search algorithms which search within both the
+feasible and the infeasible space. Inspired by the FI-2pop genetic algorithm, both algorithms
+maintain and evolve two separate populations, one with feasible and one with
+infeasible individuals, while each population can use its own selection method. The
+proposed algorithms are applied to the problem of generating diverse but playable
+game levels, which is representative of the larger problem of procedural game content
+generation. Results show that the two-population constrained novelty search
+methods can create, under certain conditions, larger and more diverse sets of feasible
+game levels than current methods of novelty search, whether constrained or unconstrained.
+However, the best algorithm is contingent on the particularities of the
+search space and the genetic operators used. Additionally, the proposed enhancement
+of offspring boosting is shown to enhance performance in all cases of two-population
+novelty search.
+</blockquote>
 
 http://antoniosliapis.com/papers/constrained_novelty_search.pdf
 
@@ -135,6 +243,32 @@ http://antoniosliapis.com/research/novsearch.php
 
 ## DeLeNoX
 
+<b>Abstract:</b>
+
+<blockquote> 
+We introduce DeLeNoX (Deep Learning Novelty Explorer),
+a system that autonomously creates artifacts in
+constrained spaces according to its own evolving interestingness
+criterion. DeLeNoX proceeds in alternating
+phases of exploration and transformation. In the exploration
+phases, a version of novelty search augmented
+with constraint handling searches for maximally diverse
+artifacts using a given distance function. In the transformation
+phases, a deep learning autoencoder learns to
+compress the variation between the found artifacts into
+a lower-dimensional space. The newly trained encoder
+is then used as the basis for a new distance function,
+transforming the criteria for the next exploration phase.
+In the current paper, we apply DeLeNoX to the creation
+of spaceships suitable for use in two-dimensional
+arcade-style computer games, a representative problem
+in procedural content generation in games. We also situate
+DeLeNoX in relation to the distinction between exploratory
+and transformational creativity, and in relation
+to Schmidhuber’s theory of creativity through the drive
+for compression progress.
+</blockquote>
+
 http://julian.togelius.com/Liapis2013Transforming.pdf
 
 http://antoniosliapis.com/research/novsearch.php
@@ -150,6 +284,27 @@ http://antoniosliapis.com/research/novsearch.php
 
 ## Surprise search
 
+<b>Abstract:</b>
+
+<blockquote>
+Grounded in the divergent search paradigm and inspired
+by the principle of surprise for unconventional discovery
+in computational creativity, this paper introduces surprise
+search as a new method of evolutionary divergent search.
+Surprise search is tested in two robot navigation tasks and
+compared against objective-based evolutionary search and
+novelty search. The key findings of this paper reveal that
+surprise search is advantageous compared to the other two
+search processes. It outperforms objective search and it is
+as efficient as novelty search in both tasks examined. Most
+importantly, surprise search is, on average, faster and more
+robust in solving the navigation problem compared to objective
+and novelty search. Our analysis reveals that surprise
+search explores the behavioral space more extensively
+and yields higher population diversity compared to novelty
+search.
+</blockquote>
+
 http://antoniosliapis.com/papers/surprise_search_beyond_objectives_and_novelty.pdf
 
 http://www.autogamedesign.eu/surprise-search
@@ -164,6 +319,33 @@ http://www.autogamedesign.eu/surprise-search
 }
 
 ## Minimal criterion coevolution
+
+<b>Abstract:</b>
+
+<blockquote>
+Recent studies have emphasized the merits of search processes
+that lack overarching objectives, instead promoting divergence
+by rewarding behavioral novelty. While this less objective search
+paradigm is more open-ended and divergent, it still diers signicantly
+from nature’s mechanism of divergence. Rather than
+measuring novelty explicitly, nature is guided by a single, fundamental
+constraint: survive long enough to reproduce. Surprisingly,
+this simple constraint produces both complexity and diversity in a
+continual process unparalleled by any algorithm to date. Inspired
+by the relative simplicity of open-endedness in nature in comparison
+to recent non-objective algorithms, this paper investigates
+the extent to which interactions between two coevolving populations,
+both subject to their own constraint, or minimal criterion, can
+produce results that are both functional and diverse even without
+any behavior characterization or novelty archive. To test this new
+approach, a novel maze navigation domain is introduced wherein
+evolved agents must learn to navigate mazes whose structures are
+simultaneously coevolving and increasing in complexity. e result
+is a broad range of maze topologies and successful agent trajectories
+in a single run, thereby suggesting the viability of minimal criterion
+coevolution as a new approach to non-objective search and a step
+towards genuinely open-ended algorithms.
+</blockquote>
 
 http://eplex.cs.ucf.edu/papers/brant_gecco17.pdf
 
