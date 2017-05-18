@@ -5,8 +5,6 @@ A collection of papers on divergence and quality diversity.
 ## Table of Contents
 
 - [What is it?](#what-is-it)
-- [Divergent Search?](#divergent-search)
-- [Quality Diversity?](#quality-diversity)
 - [Novelty Search](#novelty-search)
 - [Novelty Search Multiobjectivation](#novelty-search-multiobjectivation)
 - [Novelty Search Local Competition](#novelty-search-local-competition)
