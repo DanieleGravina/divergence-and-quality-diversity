@@ -390,10 +390,10 @@ https://www.researchgate.net/publication/316989462_Quality_and_Diversity_Optimiz
 ```
 @article{cully2017quality,
   title={Quality and Diversity Optimization: A Unifying Modular Framework},
-  author={Cully, Antoine and  Demiris, Kenneth O},
-  booktitle={IEEE Transactions on Evolutionary Computation},
+  author={Cully, Antoine and  Demiris, Yiannis},
+  journal={IEEE transactions on evolutionary computation},
   year={2017},
-  organization={IEEE}
+  publisher={IEEE}
 }
 ```
 
