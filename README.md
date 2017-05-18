@@ -16,6 +16,7 @@ A collection of papers on divergence and quality diversity.
 - [DeLeNoX](#deLeNoX)
 - [Surprise Search](#surprise-search)
 - [Minimal Criterion Coevolution](#minimal-criterion-coevolution)
+- [Quality and Diversity Optimization: A Unifying Modular Framework](#quality-and-diversity-optimization)
 
 ## Novelty search
 
@@ -375,3 +376,25 @@ http://eplex.cs.ucf.edu/papers/brant_gecco17.pdf
 ```
 
 Source code: https://github.com/jbrant/MinimalCriterionCoevolution/releases/
+
+## Quality and Diversity Optimization: A Unifying Modular Framework
+
+<b>Abstract:</b>
+
+<blockquote>
+The optimization of functions to find the best solution according to one or several objectives has a central role in many engineering and research fields. Recently, a new family of optimization algorithms, named Quality-Diversity optimization, has been introduced, and contrasts with classic algorithms. Instead of searching for a single solution, Quality-Diversity algorithms are searching for a large collection of both diverse and high-performing solutions. The role of this collection is to cover the range of possible solution types as much as possible, and to contain the best solution for each type. The contribution of this paper is threefold. Firstly, we present a unifying framework of Quality-Diversity optimization algorithms that covers the two main algorithms of this family (Multi-dimensional Archive of Phenotypic Elites and the Novelty Search with Local Competition), and that highlights the large variety of variants that can be investigated within this family. Secondly, we propose algorithms with a new selection mechanism for Quality-Diversity algorithms that outperforms all the algorithms tested in this paper. Lastly, we present a new collection management that overcomes the erosion issues observed when using unstructured collections. These three contributions are supported by extensive experimental comparisons of Quality-Diversity algorithms on three different experimental scenarios
+</blockquote>
+
+https://www.researchgate.net/publication/316989462_Quality_and_Diversity_Optimization_A_Unifying_Modular_Framework
+
+```
+@article{cully2017quality,
+  title={Quality and Diversity Optimization: A Unifying Modular Framework},
+  author={Cully, Antoine and  Demiris, Kenneth O},
+  booktitle={IEEE Transactions on Evolutionary Computation},
+  year={2017},
+  organization={IEEE}
+}
+```
+
+Source code: https://github.com/sferes2/modular_QD
