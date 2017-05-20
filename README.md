@@ -167,7 +167,7 @@ https://arxiv.org/pdf/1504.04909.pdf
   title={Illuminating search spaces by mapping elites},
   author={Mouret, Jean-Baptiste and Clune, Jeff},
   journal={arXiv preprint arXiv:1504.04909},
-  year={2015}<br>
+  year={2015}
 }
 ```
 
