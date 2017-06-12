@@ -319,6 +319,8 @@ search.
 
 http://antoniosliapis.com/papers/surprise_search_beyond_objectives_and_novelty.pdf
 
+source code : http://www.autogamedesign.eu/software
+
 http://www.autogamedesign.eu/surprise-search
 
 ```
