@@ -13,6 +13,7 @@ A collection of papers on divergence and quality diversity.
 - [Constrained novelty search](#constrained-novelty-search)
 - [DeLeNoX](#deLeNoX)
 - [Surprise Search](#surprise-search)
+- [Coupling Novelty and Surprise for Evolutionary Divergence](#coupling-novelty-surprise)
 - [Minimal Criterion Coevolution](#minimal-criterion-coevolution)
 - [Quality and Diversity Optimization: A Unifying Modular Framework](#quality-and-diversity-optimization)
 
