@@ -346,7 +346,7 @@ their efficacy in highly deceptive problems compared to traditional
 objective-based fittness evolutionary processes. While novelty
 search rewards unseen solutions, surprise search rewards unexpected
 solutions. As a result these two algorithms perform a
-dierent form of search since an expected solution can be novel
+different form of search since an expected solution can be novel
 while an already seen solution can be surprising. As novelty and
 surprise search have already shown much promise individually,
 the hypothesis is that an evolutionary process that rewards both
