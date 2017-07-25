@@ -334,6 +334,46 @@ http://www.autogamedesign.eu/surprise-search
 }
 ```
 
+## Coupling Novelty and Surprise for Evolutionary Divergence
+
+<b>Abstract:</b>
+
+<blockquote>
+Divergent search techniques applied to evolutionary computation,
+such as novelty search and surprise search, have demonstrated
+their efficacy in highly deceptive problems compared to traditional
+objective-based fittness evolutionary processes. While novelty
+search rewards unseen solutions, surprise search rewards unexpected
+solutions. As a result these two algorithms perform a
+dierent form of search since an expected solution can be novel
+while an already seen solution can be surprising. As novelty and
+surprise search have already shown much promise individually,
+the hypothesis is that an evolutionary process that rewards both
+novel and surprising solutions will be able to handle deception in
+a better fashion and lead to more successful solutions faster. In
+this paper we introduce an algorithm that realises both novelty
+and surprise search and we compare it against the two algorithms
+that compose it in a number of robot navigation tasks. The key
+findings of this paper suggest that coupling novelty and surprise is
+advantageous compared to each search approach on its own. The
+introduced algorithm breaks new ground in divergent search as it
+outperforms both novelty and surprise in terms of efficiency and
+robustness, and it explores the behavioural space more extensively.
+</blockquote>
+
+http://gravinadaniele.com/wp-content/uploads/2016/01/surprise_novelty.pdf
+
+source code : http://www.autogamedesign.eu/software
+
+```
+@inproceedings{gravina2017coupling,
+  title={Coupling Novelty and Surprise for Evolutionary Divergence},
+  author={Gravina, Daniele and Liapis, Antonios and Yannakakis, Georgios N},
+  booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+  year={2017}
+}
+```
+
 ## Minimal criterion coevolution
 
 <b>Abstract:</b>
