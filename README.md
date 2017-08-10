@@ -5,17 +5,21 @@ A collection of papers on divergence and quality diversity.
 ## Table of Contents
 
 - [What is it?](#what-is-it)
+- [Divergent algorithms](#divergent-algorithms)
 - [Novelty Search](#novelty-search)
+- [DeLeNoX](#deLeNoX)
+- [Surprise Search](#surprise-search)
+- [Coupling Novelty and Surprise for Evolutionary Divergence](#coupling-novelty-and-surprise-for-evolutionary-divergence)
+- [Minimal Criterion Coevolution](#minimal-criterion-coevolution)
+- [Quality Diversity algorithms](#quality-diversity-algorithms)
 - [Novelty Search Multiobjectivation](#novelty-search-multiobjectivation)
 - [Novelty Search Local Competition](#novelty-search-local-competition)
 - [Map-elites](#map-elites)
 - [Quality diversity](#quality-diversity)
 - [Constrained novelty search](#constrained-novelty-search)
-- [DeLeNoX](#deLeNoX)
-- [Surprise Search](#surprise-search)
-- [Coupling Novelty and Surprise for Evolutionary Divergence](#coupling-novelty-and-surprise-for-evolutionary-divergence)
-- [Minimal Criterion Coevolution](#minimal-criterion-coevolution)
 - [Quality and Diversity Optimization: A Unifying Modular Framework](#quality-and-diversity-optimization)
+
+## Divergent algorithms
 
 ## Novelty search
 
@@ -59,6 +63,173 @@ title={Abandoning objectives: Evolution through the search for novelty alone},
   year={2011},
   publisher={MIT Press}	}
 ```
+## DeLeNoX
+
+<b>Abstract:</b>
+
+<blockquote> 
+We introduce DeLeNoX (Deep Learning Novelty Explorer),
+a system that autonomously creates artifacts in
+constrained spaces according to its own evolving interestingness
+criterion. DeLeNoX proceeds in alternating
+phases of exploration and transformation. In the exploration
+phases, a version of novelty search augmented
+with constraint handling searches for maximally diverse
+artifacts using a given distance function. In the transformation
+phases, a deep learning autoencoder learns to
+compress the variation between the found artifacts into
+a lower-dimensional space. The newly trained encoder
+is then used as the basis for a new distance function,
+transforming the criteria for the next exploration phase.
+In the current paper, we apply DeLeNoX to the creation
+of spaceships suitable for use in two-dimensional
+arcade-style computer games, a representative problem
+in procedural content generation in games. We also situate
+DeLeNoX in relation to the distinction between exploratory
+and transformational creativity, and in relation
+to Schmidhuber’s theory of creativity through the drive
+for compression progress.
+</blockquote>
+
+http://julian.togelius.com/Liapis2013Transforming.pdf
+
+http://antoniosliapis.com/research/novsearch.php
+
+```
+@inproceedings{liapis2013transforming,
+  title={Transforming exploratory creativity with DeLeNoX},
+  author={Liapis, Antonios and Mart{\i}nez, H{\'e}ctor P and Togelius, Julian and Yannakakis, Georgios N},
+  booktitle={Proceedings of the Fourth International Conference on Computational Creativity},
+  pages={56--63},
+  year={2013},
+  organization={AAAI Press}
+}
+```
+
+## Surprise search
+
+<b>Abstract:</b>
+
+<blockquote>
+Grounded in the divergent search paradigm and inspired
+by the principle of surprise for unconventional discovery
+in computational creativity, this paper introduces surprise
+search as a new method of evolutionary divergent search.
+Surprise search is tested in two robot navigation tasks and
+compared against objective-based evolutionary search and
+novelty search. The key findings of this paper reveal that
+surprise search is advantageous compared to the other two
+search processes. It outperforms objective search and it is
+as efficient as novelty search in both tasks examined. Most
+importantly, surprise search is, on average, faster and more
+robust in solving the navigation problem compared to objective
+and novelty search. Our analysis reveals that surprise
+search explores the behavioral space more extensively
+and yields higher population diversity compared to novelty
+search.
+</blockquote>
+
+http://antoniosliapis.com/papers/surprise_search_beyond_objectives_and_novelty.pdf
+
+source code : http://www.autogamedesign.eu/software
+
+http://www.autogamedesign.eu/surprise-search
+
+```
+@inproceedings{gravina2016surprise,
+  title={Surprise search: Beyond objectives and novelty},
+  author={Gravina, Daniele and Liapis, Antonios and Yannakakis, Georgios},
+  booktitle={Proceedings of the 2016 on Genetic and Evolutionary Computation Conference},
+  pages={677--684},
+  year={2016},
+  organization={ACM}
+}
+```
+
+## Coupling Novelty and Surprise for Evolutionary Divergence
+
+<b>Abstract:</b>
+
+<blockquote>
+Divergent search techniques applied to evolutionary computation,
+such as novelty search and surprise search, have demonstrated
+their efficacy in highly deceptive problems compared to traditional
+objective-based fittness evolutionary processes. While novelty
+search rewards unseen solutions, surprise search rewards unexpected
+solutions. As a result these two algorithms perform a
+different form of search since an expected solution can be novel
+while an already seen solution can be surprising. As novelty and
+surprise search have already shown much promise individually,
+the hypothesis is that an evolutionary process that rewards both
+novel and surprising solutions will be able to handle deception in
+a better fashion and lead to more successful solutions faster. In
+this paper we introduce an algorithm that realises both novelty
+and surprise search and we compare it against the two algorithms
+that compose it in a number of robot navigation tasks. The key
+findings of this paper suggest that coupling novelty and surprise is
+advantageous compared to each search approach on its own. The
+introduced algorithm breaks new ground in divergent search as it
+outperforms both novelty and surprise in terms of efficiency and
+robustness, and it explores the behavioural space more extensively.
+</blockquote>
+
+http://gravinadaniele.com/wp-content/uploads/2016/01/surprise_novelty.pdf
+
+source code : http://www.autogamedesign.eu/software
+
+```
+@inproceedings{gravina2017coupling,
+  title={Coupling Novelty and Surprise for Evolutionary Divergence},
+  author={Gravina, Daniele and Liapis, Antonios and Yannakakis, Georgios N},
+  booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+  year={2017}
+}
+```
+
+## Minimal criterion coevolution
+
+<b>Abstract:</b>
+
+<blockquote>
+Recent studies have emphasized the merits of search processes
+that lack overarching objectives, instead promoting divergence
+by rewarding behavioral novelty. While this less objective search
+paradigm is more open-ended and divergent, it still differs significantly
+from nature’s mechanism of divergence. Rather than
+measuring novelty explicitly, nature is guided by a single, fundamental
+constraint: survive long enough to reproduce. Surprisingly,
+this simple constraint produces both complexity and diversity in a
+continual process unparalleled by any algorithm to date. Inspired
+by the relative simplicity of open-endedness in nature in comparison
+to recent non-objective algorithms, this paper investigates
+the extent to which interactions between two coevolving populations,
+both subject to their own constraint, or minimal criterion, can
+produce results that are both functional and diverse even without
+any behavior characterization or novelty archive. To test this new
+approach, a novel maze navigation domain is introduced wherein
+evolved agents must learn to navigate mazes whose structures are
+simultaneously coevolving and increasing in complexity. The result
+is a broad range of maze topologies and successful agent trajectories
+in a single run, thereby suggesting the viability of minimal criterion
+coevolution as a new approach to non-objective search and a step
+towards genuinely open-ended algorithms.
+</blockquote>
+
+http://eplex.cs.ucf.edu/papers/brant_gecco17.pdf
+
+```
+@inproceedings{brant2017minimal,
+  title={Minimal Criterion Coevolution},
+  author={Brant, Jonathan C and  Stanley, Kenneth O},
+  booktitle={Proceedings of the 2017 on Genetic and Evolutionary Computation Conference},
+  year={2017},
+  organization={ACM}
+}
+```
+
+Source code: https://github.com/jbrant/MinimalCriterionCoevolution/releases/
+
+## Quality Diversity algorithms
 
 ## Novelty search multiobjectivation
 
@@ -251,172 +422,6 @@ http://antoniosliapis.com/research/novsearch.php
   publisher={MIT Press}
 }
 ```
-
-## DeLeNoX
-
-<b>Abstract:</b>
-
-<blockquote> 
-We introduce DeLeNoX (Deep Learning Novelty Explorer),
-a system that autonomously creates artifacts in
-constrained spaces according to its own evolving interestingness
-criterion. DeLeNoX proceeds in alternating
-phases of exploration and transformation. In the exploration
-phases, a version of novelty search augmented
-with constraint handling searches for maximally diverse
-artifacts using a given distance function. In the transformation
-phases, a deep learning autoencoder learns to
-compress the variation between the found artifacts into
-a lower-dimensional space. The newly trained encoder
-is then used as the basis for a new distance function,
-transforming the criteria for the next exploration phase.
-In the current paper, we apply DeLeNoX to the creation
-of spaceships suitable for use in two-dimensional
-arcade-style computer games, a representative problem
-in procedural content generation in games. We also situate
-DeLeNoX in relation to the distinction between exploratory
-and transformational creativity, and in relation
-to Schmidhuber’s theory of creativity through the drive
-for compression progress.
-</blockquote>
-
-http://julian.togelius.com/Liapis2013Transforming.pdf
-
-http://antoniosliapis.com/research/novsearch.php
-
-```
-@inproceedings{liapis2013transforming,
-  title={Transforming exploratory creativity with DeLeNoX},
-  author={Liapis, Antonios and Mart{\i}nez, H{\'e}ctor P and Togelius, Julian and Yannakakis, Georgios N},
-  booktitle={Proceedings of the Fourth International Conference on Computational Creativity},
-  pages={56--63},
-  year={2013},
-  organization={AAAI Press}
-}
-```
-
-## Surprise search
-
-<b>Abstract:</b>
-
-<blockquote>
-Grounded in the divergent search paradigm and inspired
-by the principle of surprise for unconventional discovery
-in computational creativity, this paper introduces surprise
-search as a new method of evolutionary divergent search.
-Surprise search is tested in two robot navigation tasks and
-compared against objective-based evolutionary search and
-novelty search. The key findings of this paper reveal that
-surprise search is advantageous compared to the other two
-search processes. It outperforms objective search and it is
-as efficient as novelty search in both tasks examined. Most
-importantly, surprise search is, on average, faster and more
-robust in solving the navigation problem compared to objective
-and novelty search. Our analysis reveals that surprise
-search explores the behavioral space more extensively
-and yields higher population diversity compared to novelty
-search.
-</blockquote>
-
-http://antoniosliapis.com/papers/surprise_search_beyond_objectives_and_novelty.pdf
-
-source code : http://www.autogamedesign.eu/software
-
-http://www.autogamedesign.eu/surprise-search
-
-```
-@inproceedings{gravina2016surprise,
-  title={Surprise search: Beyond objectives and novelty},
-  author={Gravina, Daniele and Liapis, Antonios and Yannakakis, Georgios},
-  booktitle={Proceedings of the 2016 on Genetic and Evolutionary Computation Conference},
-  pages={677--684},
-  year={2016},
-  organization={ACM}
-}
-```
-
-## Coupling Novelty and Surprise for Evolutionary Divergence
-
-<b>Abstract:</b>
-
-<blockquote>
-Divergent search techniques applied to evolutionary computation,
-such as novelty search and surprise search, have demonstrated
-their efficacy in highly deceptive problems compared to traditional
-objective-based fittness evolutionary processes. While novelty
-search rewards unseen solutions, surprise search rewards unexpected
-solutions. As a result these two algorithms perform a
-different form of search since an expected solution can be novel
-while an already seen solution can be surprising. As novelty and
-surprise search have already shown much promise individually,
-the hypothesis is that an evolutionary process that rewards both
-novel and surprising solutions will be able to handle deception in
-a better fashion and lead to more successful solutions faster. In
-this paper we introduce an algorithm that realises both novelty
-and surprise search and we compare it against the two algorithms
-that compose it in a number of robot navigation tasks. The key
-findings of this paper suggest that coupling novelty and surprise is
-advantageous compared to each search approach on its own. The
-introduced algorithm breaks new ground in divergent search as it
-outperforms both novelty and surprise in terms of efficiency and
-robustness, and it explores the behavioural space more extensively.
-</blockquote>
-
-http://gravinadaniele.com/wp-content/uploads/2016/01/surprise_novelty.pdf
-
-source code : http://www.autogamedesign.eu/software
-
-```
-@inproceedings{gravina2017coupling,
-  title={Coupling Novelty and Surprise for Evolutionary Divergence},
-  author={Gravina, Daniele and Liapis, Antonios and Yannakakis, Georgios N},
-  booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
-  year={2017}
-}
-```
-
-## Minimal criterion coevolution
-
-<b>Abstract:</b>
-
-<blockquote>
-Recent studies have emphasized the merits of search processes
-that lack overarching objectives, instead promoting divergence
-by rewarding behavioral novelty. While this less objective search
-paradigm is more open-ended and divergent, it still differs significantly
-from nature’s mechanism of divergence. Rather than
-measuring novelty explicitly, nature is guided by a single, fundamental
-constraint: survive long enough to reproduce. Surprisingly,
-this simple constraint produces both complexity and diversity in a
-continual process unparalleled by any algorithm to date. Inspired
-by the relative simplicity of open-endedness in nature in comparison
-to recent non-objective algorithms, this paper investigates
-the extent to which interactions between two coevolving populations,
-both subject to their own constraint, or minimal criterion, can
-produce results that are both functional and diverse even without
-any behavior characterization or novelty archive. To test this new
-approach, a novel maze navigation domain is introduced wherein
-evolved agents must learn to navigate mazes whose structures are
-simultaneously coevolving and increasing in complexity. The result
-is a broad range of maze topologies and successful agent trajectories
-in a single run, thereby suggesting the viability of minimal criterion
-coevolution as a new approach to non-objective search and a step
-towards genuinely open-ended algorithms.
-</blockquote>
-
-http://eplex.cs.ucf.edu/papers/brant_gecco17.pdf
-
-```
-@inproceedings{brant2017minimal,
-  title={Minimal Criterion Coevolution},
-  author={Brant, Jonathan C and  Stanley, Kenneth O},
-  booktitle={Proceedings of the 2017 on Genetic and Evolutionary Computation Conference},
-  year={2017},
-  organization={ACM}
-}
-```
-
-Source code: https://github.com/jbrant/MinimalCriterionCoevolution/releases/
 
 ## Quality and Diversity Optimization: A Unifying Modular Framework
 
