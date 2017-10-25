@@ -17,7 +17,7 @@ A collection of papers on divergence and quality diversity.
 - [Map-elites](#map-elites)
 - [Quality diversity](#quality-diversity)
 - [Constrained novelty search](#constrained-novelty-search)
-- [Quality and Diversity Optimization: A Unifying Modular Framework](#quality-and-diversity-optimization:-a-unifying-modular-framework)
+- [Quality and Diversity Optimization: A Unifying Modular Framework](#quality-and-diversity-optimization)
 
 ## Divergent algorithms
 
