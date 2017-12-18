@@ -8,6 +8,7 @@ A collection of papers on divergence and quality diversity.
 - [Divergent algorithms](#divergent-algorithms)
 - [Novelty Search](#novelty-search)
 - [DeLeNoX](#deLeNoX)
+- [Curiosity Search](#Curiosity-Search)
 - [Surprise Search](#surprise-search)
 - [Coupling Novelty and Surprise for Evolutionary Divergence](#coupling-novelty-and-surprise-for-evolutionary-divergence)
 - [Minimal Criterion Coevolution](#minimal-criterion-coevolution)
@@ -106,13 +107,15 @@ http://antoniosliapis.com/research/novsearch.php
 }
 ```
 
-## Curiosity search
+## Curiosity Search
 
 <b>Abstract:</b>
 
 <blockquote> 
 Natural animals are renowned for their ability to acquire a diverse and general skill set over the course of their lifetime. However, research in artificial intelligence has yet to produce agents that acquire all or even most of the available skills in non-trivial environments. One candidate algorithm for encouraging the production of such individuals is Novelty Search, which pressures organisms to exhibit different behaviors from other individuals. However, we hypothesized that Novelty Search would produce sub-populations of specialists, in which each individual possesses a subset of skills, but no one organism acquires all or most of the skills. In this paper, we propose a new algorithm called Curiosity Search, which is designed to produce individuals that acquire as many skills as possible during their lifetime. We show that in a multiple-skill maze environment, Curiosity Search does produce individuals that explore their entire domain, while a traditional implementation of Novelty Search produces specialists. However, we reveal that when modified to encourage intra-life behavioral diversity, Novelty Search can produce organisms that explore almost as much of their environment as Curiosity Search, although Curiosity Search retains a significant performance edge. Finally, we show that Curiosity Search is a useful helper objective when combined with Novelty Search, producing individuals that acquire significantly more skills than either algorithm alone.
 </blockquote>
+
+http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0162235
 
 ```
 @article{stanton2016curiosity,
