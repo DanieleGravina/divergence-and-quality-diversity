@@ -19,6 +19,7 @@ A collection of papers on divergence and quality diversity.
 - [Quality diversity](#quality-diversity)
 - [Constrained novelty search](#constrained-novelty-search)
 - [Quality and Diversity Optimization: A Unifying Modular Framework](#quality-and-diversity-optimization)
+- [Surrogate-Assisted Illumination (SAIL)](#surrogate-assisted-illumination-(sail))
 
 ## Divergent algorithms
 
@@ -468,3 +469,44 @@ https://www.researchgate.net/publication/316989462_Quality_and_Diversity_Optimiz
 ```
 
 Source code: https://github.com/sferes2/modular_QD
+
+## Surrogate-Assisted Illumination (SAIL)
+
+<b>Abstract:</b>
+
+<blockquote>
+  The MAP-Elites algorithm produces a set of high-performing
+solutions that vary according to features defined by the user. This
+technique to ’illuminate’ the problem space through the lens of
+chosen features has the potential to be a powerful tool for exploring
+design spaces, but is limited by the need for numerous evaluations.
+The Surrogate-Assisted Illumination (SAIL) algorithm,
+introduced here, integrates approximative models and intelligent
+sampling of the objective function to minimize the number of
+evaluations required by MAP-Elites.
+The ability of SAIL to efficiently produce both accurate models
+and diverse high-performing solutions is illustrated on a 2D airfoil
+design problem. The search space is divided into bins, each
+holding a design with a different combination of features. In each
+bin SAIL produces a better performing solution than MAP-Elites,
+and requires several orders of magnitude fewer evaluations. The
+CMA-ES algorithm was used to produce an optimal design in
+each bin: with the same number of evaluations required by CMAES
+to find a near-optimal solution in a single bin, SAIL finds solutions
+of similar quality in every bin.
+</blockquote>
+
+https://arxiv.org/pdf/1702.03713.pdf
+
+```
+@inproceedings{gaier2017data,
+  title={Data-efficient exploration, optimization, and modeling of diverse designs through surrogate-assisted illumination},
+  author={Gaier, Adam and Asteroth, Alexander and Mouret, Jean-Baptiste},
+  booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+  pages={99--106},
+  year={2017},
+  organization={ACM}
+}
+```
+
+
