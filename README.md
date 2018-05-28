@@ -12,6 +12,7 @@ A collection of papers on divergence and quality diversity.
 - [Surprise Search](#surprise-search)
 - [Coupling Novelty and Surprise for Evolutionary Divergence](#coupling-novelty-and-surprise-for-evolutionary-divergence)
 - [Minimal Criterion Coevolution](#minimal-criterion-coevolution)
+- [SHINE](#shine)
 - [Quality Diversity algorithms](#quality-diversity-algorithms)
 - [Novelty Search Multiobjectivation](#novelty-search-multiobjectivation)
 - [Novelty Search Local Competition](#novelty-search-local-competition)
@@ -253,6 +254,40 @@ http://eplex.cs.ucf.edu/papers/brant_gecco17.pdf
 ```
 
 Source code: https://github.com/jbrant/MinimalCriterionCoevolution/releases/
+
+## SHINE
+
+<b>Abstract:</b>
+
+<blockquote>
+Exploration of the search space through the optimisation of
+phenotypic diversity is of increasing interest within the field of evolutionary
+robotics. Novelty search and the more recent MAP-Elites are two
+state of the art evolutionary algorithms which diversify low dimensional
+phenotypic traits for divergent exploration. In this paper we introduce a
+novel alternative for rapid divergent search of the feature space. Unlike
+previous phenotypic search procedures, our proposed Spatial, Hierarchical,
+Illuminated Neuro-Evolution (SHINE) algorithm utilises a tree structure
+for the maintenance and selection of potential candidates. SHINE penalises
+previous solutions in more crowded areas of the landscape. Our
+experimental results show that SHINE significantly outperforms novelty
+search and MAP-Elites in both performance and exploration. We conclude
+that the SHINE algorithm is a viable method for rapid divergent search
+of low dimensional, phenotypic landscapes
+</blockquote>
+
+https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/14411/Tokarchuk%20Rapid%20Phenotypic%20Landscape%202016%20Accepted.pdf.pdf?sequence=3
+
+```
+@inproceedings{smith2016rapid,
+  title={Rapid phenotypic landscape exploration through hierarchical spatial partitioning},
+  author={Smith, Davy and Tokarchuk, Laurissa and Wiggins, Geraint},
+  booktitle={International conference on parallel problem solving from nature},
+  pages={911--920},
+  year={2016},
+  organization={Springer}
+}
+```
 
 ## Quality Diversity algorithms
 
