@@ -15,16 +15,17 @@ A collection of papers on divergence and quality diversity.
 - [SHINE](#shine)
 - [Quality Diversity algorithms](#quality-diversity-algorithms)
 - [Novelty Search Multiobjectivation](#novelty-search-multiobjectivation)
-- [Novelty Search Local Competition](#novelty-search-local-competition)
+- [Novelty Search with Local Competition](#novelty-search-with-local-competition)
 - [Map-elites](#map-elites)
 - [Quality diversity](#quality-diversity)
 - [Constrained novelty search](#constrained-novelty-search)
 - [Quality and Diversity Optimization: A Unifying Modular Framework](#quality-and-diversity-optimization)
 - [Surrogate-Assisted Illumination (SAIL)](#surrogate-assisted-illumination-(sail))
+- [Surprise for Quality Diversity](#surprise-for-quality-diversity)
 
 ## Divergent algorithms
 
-## Novelty search
+## Novelty Search
 
 <b>Abstract:</b>
 
@@ -132,7 +133,7 @@ http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0162235
 }
 ```
 
-## Surprise search
+## Surprise Search
 
 <b>Abstract:</b>
 
@@ -212,7 +213,7 @@ source code : http://www.autogamedesign.eu/software
 }
 ```
 
-## Minimal criterion coevolution
+## Minimal Criterion Coevolution
 
 <b>Abstract:</b>
 
@@ -291,7 +292,7 @@ https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/14411/Tokarchuk%20Rapid
 
 ## Quality Diversity algorithms
 
-## Novelty search multiobjectivation
+## Novelty Search Multiobjectivation
 
 <b>Abstract:</b>
 
@@ -310,7 +311,7 @@ https://www.researchgate.net/publication/225729412_Novelty-Based_Multiobjectiviz
 }
 ```
 
-## Novelty search local competition
+## Novelty Search with Local Competition
 
 <b>Abstract:</b>
 
@@ -352,7 +353,7 @@ https://pdfs.semanticscholar.org/6d45/9da1ff73ec7225e92842341605e2b90d0da2.pdf
 }
 ```
 
-## Map elites
+## MAP-Elites
 
 <b>Abstract:</b>
 
@@ -405,7 +406,7 @@ https://arxiv.org/pdf/1504.04909.pdf
 
 source code: https://github.com/sferes2/map_elites
 
-## Quality diversity
+## Quality Diversity
 
 <b>Abstract:</b>
 
@@ -443,7 +444,7 @@ http://journal.frontiersin.org/article/10.3389/frobt.2016.00040/pdf
 }
 ```
 
-## Constrained novelty search
+## Constrained Novelty Search
 
 <b>Abstract:</b>
 
@@ -543,5 +544,22 @@ https://arxiv.org/pdf/1702.03713.pdf
   organization={ACM}
 }
 ```
+## Quality Diversity Through Surprise
 
+<b>Abstract:</b>
+
+<blockquote>
+Quality diversity is a recent evolutionary computation paradigm which maintains an appropriate balance between divergence and convergence and has achieved promising results in complex problems. There is, however, limited exploration on how different paradigms of divergent search may impact the solutions found by quality diversity algorithms. Inspired by the notion of \emph{surprise} as an effective driver of divergent search and its orthogonal nature to novelty this paper investigates the impact of the former to quality diversity performance. For that purpose we introduce three new quality diversity algorithms which use surprise as a diversity measure, either on its own or combined with novelty, and compare their performance against novelty search with local competition, the state of the art quality diversity algorithm. The algorithms are tested in a robot maze navigation task, in a challenging set of 60 deceptive mazes. Our findings suggest that allowing surprise and novelty to operate synergistically for divergence and in combination with local competition leads to quality diversity algorithms of significantly higher efficiency, speed and robustness.
+</blockquote>
+
+https://arxiv.org/abs/1807.02397
+
+```
+@article{gravina2018qdsurprise,
+  title={Quality Diversity Through Surprise},
+  author={Gravina, Daniele and Liapis, Antonios and Yannakakis, Georgios N},
+  journal={arXiv preprint arXiv:1807.02397},
+  year={2018}
+}
+```
 
