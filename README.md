@@ -25,7 +25,7 @@ A collection of papers on divergence and quality diversity.
 
 ## Divergent algorithms
 
-## Novelty Search
+### Novelty Search
 
 <b>Abstract:</b>
 
@@ -67,7 +67,7 @@ title={Abandoning objectives: Evolution through the search for novelty alone},
   year={2011},
   publisher={MIT Press}	}
 ```
-## DeLeNoX
+### DeLeNoX
 
 <b>Abstract:</b>
 
@@ -110,7 +110,7 @@ http://antoniosliapis.com/research/novsearch.php
 }
 ```
 
-## Curiosity Search
+### Curiosity Search
 
 <b>Abstract:</b>
 
@@ -133,7 +133,7 @@ http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0162235
 }
 ```
 
-## Surprise Search
+### Surprise Search
 
 <b>Abstract:</b>
 
@@ -173,7 +173,7 @@ http://www.autogamedesign.eu/surprise-search
 }
 ```
 
-## Coupling Novelty and Surprise for Evolutionary Divergence
+### Coupling Novelty and Surprise for Evolutionary Divergence
 
 <b>Abstract:</b>
 
@@ -213,7 +213,7 @@ source code : http://www.autogamedesign.eu/software
 }
 ```
 
-## Minimal Criterion Coevolution
+### Minimal Criterion Coevolution
 
 <b>Abstract:</b>
 
@@ -256,7 +256,7 @@ http://eplex.cs.ucf.edu/papers/brant_gecco17.pdf
 
 Source code: https://github.com/jbrant/MinimalCriterionCoevolution/releases/
 
-## SHINE
+### SHINE
 
 <b>Abstract:</b>
 
@@ -290,11 +290,9 @@ https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/14411/Tokarchuk%20Rapid
 }
 ```
 
-----
-
 ## Quality Diversity algorithms
 
-## Novelty Search Multiobjectivation
+### Novelty Search Multiobjectivation
 
 <b>Abstract:</b>
 
@@ -313,7 +311,7 @@ https://www.researchgate.net/publication/225729412_Novelty-Based_Multiobjectiviz
 }
 ```
 
-## Novelty Search with Local Competition
+### Novelty Search with Local Competition
 
 <b>Abstract:</b>
 
@@ -355,7 +353,7 @@ https://pdfs.semanticscholar.org/6d45/9da1ff73ec7225e92842341605e2b90d0da2.pdf
 }
 ```
 
-## MAP-Elites
+### MAP-Elites
 
 <b>Abstract:</b>
 
@@ -408,7 +406,7 @@ https://arxiv.org/pdf/1504.04909.pdf
 
 source code: https://github.com/sferes2/map_elites
 
-## Quality Diversity
+### Quality Diversity
 
 <b>Abstract:</b>
 
@@ -446,7 +444,7 @@ http://journal.frontiersin.org/article/10.3389/frobt.2016.00040/pdf
 }
 ```
 
-## Constrained Novelty Search
+### Constrained Novelty Search
 
 <b>Abstract:</b>
 
@@ -486,7 +484,7 @@ http://antoniosliapis.com/research/novsearch.php
 }
 ```
 
-## Quality and Diversity Optimization: A Unifying Modular Framework
+### Quality and Diversity Optimization: A Unifying Modular Framework
 
 <b>Abstract:</b>
 
@@ -508,7 +506,7 @@ https://www.researchgate.net/publication/316989462_Quality_and_Diversity_Optimiz
 
 Source code: https://github.com/sferes2/modular_QD
 
-## Surrogate-Assisted Illumination (SAIL)
+### Surrogate-Assisted Illumination (SAIL)
 
 <b>Abstract:</b>
 
@@ -546,7 +544,7 @@ https://arxiv.org/pdf/1702.03713.pdf
   organization={ACM}
 }
 ```
-## Quality Diversity Through Surprise
+### Quality Diversity Through Surprise
 
 <b>Abstract:</b>
 
