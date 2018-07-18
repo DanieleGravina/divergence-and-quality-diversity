@@ -290,6 +290,8 @@ https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/14411/Tokarchuk%20Rapid
 }
 ```
 
+----
+
 ## Quality Diversity algorithms
 
 ## Novelty Search Multiobjectivation
