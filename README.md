@@ -534,10 +534,10 @@ to find a near-optimal solution in a single bin, SAIL finds solutions
 of similar quality in every bin.
 </blockquote>
 
-https://arxiv.org/pdf/1806.05865.pdf?fbclid=IwAR2B0oa0Bfw5kPZKyCmwUPkQ72AtziPSosHSrpbHpD3KyraA0QGzDEr_Glo
+https://arxiv.org/pdf/1806.05865.pdf
 
 ```
-@inproceedings{gaier2017data,
+@inproceedings{gaier2018data,
   title = {Data-Efficient Design Exploration through Surrogate-Assisted Illumination},
   author = {Gaier, Adam and Asteroth, Alexander and Mouret, Jean-Baptiste},
   journal = {Evolutionary Computation},
