@@ -534,16 +534,17 @@ to find a near-optimal solution in a single bin, SAIL finds solutions
 of similar quality in every bin.
 </blockquote>
 
-https://arxiv.org/pdf/1702.03713.pdf
+https://arxiv.org/pdf/1806.05865.pdf?fbclid=IwAR2B0oa0Bfw5kPZKyCmwUPkQ72AtziPSosHSrpbHpD3KyraA0QGzDEr_Glo
 
 ```
 @inproceedings{gaier2017data,
-  title={Data-efficient exploration, optimization, and modeling of diverse designs through surrogate-assisted illumination},
-  author={Gaier, Adam and Asteroth, Alexander and Mouret, Jean-Baptiste},
-  booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
-  pages={99--106},
-  year={2017},
-  organization={ACM}
+  title = {Data-Efficient Design Exploration through Surrogate-Assisted Illumination},
+  author = {Gaier, Adam and Asteroth, Alexander and Mouret, Jean-Baptiste},
+  journal = {Evolutionary Computation},
+  volume = {26},
+  number = {3},
+  pages = {381-410},
+  year = {2018}
 }
 ```
 ### Quality Diversity Through Surprise
@@ -551,17 +552,18 @@ https://arxiv.org/pdf/1702.03713.pdf
 <b>Abstract:</b>
 
 <blockquote>
-Quality diversity is a recent evolutionary computation paradigm which maintains an appropriate balance between divergence and convergence and has achieved promising results in complex problems. There is, however, limited exploration on how different paradigms of divergent search may impact the solutions found by quality diversity algorithms. Inspired by the notion of surprise as an effective driver of divergent search and its orthogonal nature to novelty this paper investigates the impact of the former to quality diversity performance. For that purpose we introduce three new quality diversity algorithms which use surprise as a diversity measure, either on its own or combined with novelty, and compare their performance against novelty search with local competition, the state of the art quality diversity algorithm. The algorithms are tested in a robot maze navigation task, in a challenging set of 60 deceptive mazes. Our findings suggest that allowing surprise and novelty to operate synergistically for divergence and in combination with local competition leads to quality diversity algorithms of significantly higher efficiency, speed and robustness.
+Quality diversity is a recent family of evolutionary search algorithms which focus on finding several well-performing (quality) yet different (diversity) solutions with the aim to maintain an appropriate balance between divergence and convergence during search. While quality diversity has already delivered promising results in complex problems, the capacity of divergent search variants for quality diversity remains largely unexplored. Inspired by the notion of surprise as an effective driver of divergent search and its orthogonal nature to novelty this paper investigates the impact of the former to quality diversity performance. For that purpose we introduce three new quality diversity algorithms which employ surprise as a diversity measure, either on its own or combined with novelty, and compare their performance against novelty search with local competition, the state of the art quality diversity algorithm. The algorithms are tested in a robot navigation task across 60 highly deceptive mazes. Our findings suggest that allowing surprise and novelty to operate synergistically for divergence and in combination with local competition leads to quality diversity algorithms of significantly higher efficiency, speed and robustness.
 </blockquote>
 
-https://arxiv.org/abs/1807.02397
+http://yannakakis.net/wp-content/uploads/2018/10/QualityDiversityThroughSurprise.pdf
 
 ```
 @article{gravina2018qdsurprise,
   title={Quality Diversity Through Surprise},
   author={Gravina, Daniele and Liapis, Antonios and Yannakakis, Georgios N},
-  journal={arXiv preprint arXiv:1807.02397},
-  year={2018}
+  journal={IEEE Transactions on Evolutionary Computation},
+  year={2018},
+  publisher={IEEE}
 }
 ```
 
