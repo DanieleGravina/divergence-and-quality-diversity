@@ -577,6 +577,8 @@ A grand challenge in reinforcement learning is intelligent exploration, especial
 
 https://arxiv.org/pdf/1901.10995
 
+source code: https://github.com/uber-research/go-explore
+
 ```
 @article{ecoffet2018montezuma,
   title={Montezuma’s revenge solved by go-explore, a new algorithm for hard-exploration problems (sets records on pitfall, too)},
