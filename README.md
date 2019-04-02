@@ -558,6 +558,8 @@ Quality diversity is a recent family of evolutionary search algorithms which foc
 
 http://yannakakis.net/wp-content/uploads/2018/10/QualityDiversityThroughSurprise.pdf
 
+source code: https://gitlab.com/2factor/QDSurprise
+
 ```
 @article{gravina2018qdsurprise,
   title={Quality Diversity Through Surprise},
