@@ -23,7 +23,7 @@ A collection of papers on divergence and quality diversity.
 - [Constrained novelty search](#constrained-novelty-search)
 - [Quality and Diversity Optimization: A Unifying Modular Framework](#quality-and-diversity-optimization)
 - [Surrogate-Assisted Illumination (SAIL)](#surrogate-assisted-illumination-(sail))
-- [Surprise for Quality Diversity](#surprise-for-quality-diversity)
+- [Quality Diversity Through Surprise](#quality-diversity-through-surprise)
 - [Go-Explore](#go-explore)
 
 ## Divergent algorithms
