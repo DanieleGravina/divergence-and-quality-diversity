@@ -18,13 +18,14 @@ A collection of papers on divergence and quality diversity.
 - [Quality Diversity algorithms](#quality-diversity-algorithms)
 - [Novelty Search Multiobjectivation](#novelty-search-multiobjectivation)
 - [Novelty Search with Local Competition](#novelty-search-with-local-competition)
-- [Map-elites](#map-elites)
+- [Map-Elites](#map-elites)
 - [Quality diversity](#quality-diversity)
 - [Constrained novelty search](#constrained-novelty-search)
 - [Quality and Diversity Optimization: A Unifying Modular Framework](#quality-and-diversity-optimization)
 - [Surrogate-Assisted Illumination (SAIL)](#surrogate-assisted-illumination-(sail))
 - [Quality Diversity Through Surprise](#quality-diversity-through-surprise)
 - [Go-Explore](#go-explore)
+- [Constrained Map-Elites](#constrained-map-elites)
 
 ## Divergent algorithms
 
@@ -587,6 +588,27 @@ source code: https://github.com/uber-research/go-explore
   author={Ecoffet, Adrien and Huizinga, Joost and Lehman, Joel and Stanley, Kenneth O and Clune, Jeff},
   journal={Uber Engineering Blog, Nov},
   year={2018}
+}
+
+```
+### Constrained Map-Elites
+
+<b>Abstract:</b>
+
+<blockquote>
+We describe a search-based approach to generating new levels for bullet hell games, which are action games characterized by and requiring avoidance of a very large amount of projectiles. Levels are represented using a domain-specific description language, and search in the space defined by this language is performed by a novel variant of the Map-Elites algorithm which incorporates a feasible- infeasible approach to constraint satisfaction. Simulation-based evaluation is used to gauge the fitness of levels, using an agent based on best-first search. The performance of the agent can be tuned according to the two dimensions of strategy and dexterity, making it possible to search for level configurations that require a specific combination of both. As far as we know, this paper describes the first generator for this game genre, and includes several algorithmic innovations.
+</blockquote>
+
+https://arxiv.org/abs/1806.04718
+
+```
+@inproceedings{khalifa2018talakat,
+  title={Talakat: Bullet hell generation through constrained map-elites},
+  author={Khalifa, Ahmed and Lee, Scott and Nealen, Andy and Togelius, Julian},
+  booktitle={Proceedings of The Genetic and Evolutionary Computation Conference},
+  pages={1047--1054},
+  year={2018},
+  organization={ACM}
 }
 
 ```
