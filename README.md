@@ -583,11 +583,11 @@ https://arxiv.org/pdf/1901.10995
 source code: https://github.com/uber-research/go-explore
 
 ```
-@article{ecoffet2018montezuma,
-  title={Montezuma’s revenge solved by go-explore, a new algorithm for hard-exploration problems (sets records on pitfall, too)},
+@article{ecoffet2019go,
+  title={Go-Explore: a New Approach for Hard-Exploration Problems},
   author={Ecoffet, Adrien and Huizinga, Joost and Lehman, Joel and Stanley, Kenneth O and Clune, Jeff},
-  journal={Uber Engineering Blog, Nov},
-  year={2018}
+  journal={arXiv preprint arXiv:1901.10995},
+  year={2019}
 }
 
 ```
