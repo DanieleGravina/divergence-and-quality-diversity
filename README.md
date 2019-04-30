@@ -26,6 +26,7 @@ A collection of papers on divergence and quality diversity.
 - [Quality Diversity Through Surprise](#quality-diversity-through-surprise)
 - [Go-Explore](#go-explore)
 - [Constrained Map-Elites](#constrained-map-elites)
+- [Map-Elites with Sliding Boundaries](#map-elites-with-sliding-boundaries)
 
 ## Divergent algorithms
 
@@ -612,6 +613,25 @@ https://arxiv.org/abs/1806.04718
 }
 
 ```
+
+### MAP-Elites with Sliding Boundaries
+
+<b>Abstract:</b>
+
+<blockquote>
+Quality diversity (QD) algorithms such as MAP-Elites have emerged as a powerful alternative to traditional single-objective optimization methods. They were initially applied to evolutionary robotics problems such as locomotion and maze navigation, but have yet to see widespread application. We argue that these algorithms are perfectly suited to the rich domain of video games, which contains many relevant problems with a multitude of successful strategies and often also multiple dimensions along which solutions can vary. This paper introduces a novel modification of the MAP-Elites algorithm called MAP-Elites with Sliding Boundaries (MESB) and applies it to the design and rebalancing of Hearthstone, a popular collectible card game chosen for its number of multidimensional behavior features relevant to particular styles of play. To avoid overpopulating cells with conflated behaviors, MESB slides the boundaries of cells based on the distribution of evolved individuals. Experiments in this paper demonstrate the performance of MESB in Hearthstone. Results suggest MESB finds diverse ways of playing the game well along the selected behavioral dimensions. Further analysis of the evolved strategies reveals common patterns that recur across behavioral dimensions and explores how MESB can help rebalance the game.
+</blockquote>
+
+https://arxiv.org/pdf/1904.10656.pdf
+
+```
+@inproceedings{fontaine2019,
+  title={Mapping Hearthstone Deck Spaces with Map-Elites with Sliding Boundaries},
+  author={Matthew C. Fontaine and Scott Lee and L. B. Soros and Fernando De Mesentier Silva and Julian Togelius and Amy K. Hoover},
+  booktitle={Proceedings of The Genetic and Evolutionary Computation Conference},
+  year={2019},
+  organization={ACM}
+}
 
 ----
 
