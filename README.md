@@ -9,7 +9,6 @@ A collection of papers on divergence and quality diversity.
 - [What is it?](#what-is-it)
 - [Divergent algorithms](#divergent-algorithms)
 - [Novelty Search](#novelty-search)
-- [DeLeNoX](#deLeNoX)
 - [Curiosity Search](#Curiosity-Search)
 - [Surprise Search](#surprise-search)
 - [Coupling Novelty and Surprise for Evolutionary Divergence](#coupling-novelty-and-surprise-for-evolutionary-divergence)
@@ -21,6 +20,7 @@ A collection of papers on divergence and quality diversity.
 - [Map-Elites](#map-elites)
 - [Quality diversity](#quality-diversity)
 - [Constrained novelty search](#constrained-novelty-search)
+- [DeLeNoX](#deLeNoX)
 - [Quality and Diversity Optimization: A Unifying Modular Framework](#quality-and-diversity-optimization)
 - [Surrogate-Assisted Illumination (SAIL)](#surrogate-assisted-illumination-(sail))
 - [Quality Diversity Through Surprise](#quality-diversity-through-surprise)
@@ -71,48 +71,6 @@ title={Abandoning objectives: Evolution through the search for novelty alone},
   pages={189--223},
   year={2011},
   publisher={MIT Press}	}
-```
-### DeLeNoX
-
-<b>Abstract:</b>
-
-<blockquote> 
-We introduce DeLeNoX (Deep Learning Novelty Explorer),
-a system that autonomously creates artifacts in
-constrained spaces according to its own evolving interestingness
-criterion. DeLeNoX proceeds in alternating
-phases of exploration and transformation. In the exploration
-phases, a version of novelty search augmented
-with constraint handling searches for maximally diverse
-artifacts using a given distance function. In the transformation
-phases, a deep learning autoencoder learns to
-compress the variation between the found artifacts into
-a lower-dimensional space. The newly trained encoder
-is then used as the basis for a new distance function,
-transforming the criteria for the next exploration phase.
-In the current paper, we apply DeLeNoX to the creation
-of spaceships suitable for use in two-dimensional
-arcade-style computer games, a representative problem
-in procedural content generation in games. We also situate
-DeLeNoX in relation to the distinction between exploratory
-and transformational creativity, and in relation
-to Schmidhuber’s theory of creativity through the drive
-for compression progress.
-</blockquote>
-
-http://julian.togelius.com/Liapis2013Transforming.pdf
-
-http://antoniosliapis.com/research/novsearch.php
-
-```
-@inproceedings{liapis2013transforming,
-  title={Transforming exploratory creativity with DeLeNoX},
-  author={Liapis, Antonios and Mart{\i}nez, H{\'e}ctor P and Togelius, Julian and Yannakakis, Georgios N},
-  booktitle={Proceedings of the Fourth International Conference on Computational Creativity},
-  pages={56--63},
-  year={2013},
-  organization={AAAI Press}
-}
 ```
 
 ### Curiosity Search
@@ -486,6 +444,48 @@ http://antoniosliapis.com/research/novsearch.php
   pages={101--129},
   year={2015},
   publisher={MIT Press}
+}
+```
+### DeLeNoX
+
+<b>Abstract:</b>
+
+<blockquote> 
+We introduce DeLeNoX (Deep Learning Novelty Explorer),
+a system that autonomously creates artifacts in
+constrained spaces according to its own evolving interestingness
+criterion. DeLeNoX proceeds in alternating
+phases of exploration and transformation. In the exploration
+phases, a version of novelty search augmented
+with constraint handling searches for maximally diverse
+artifacts using a given distance function. In the transformation
+phases, a deep learning autoencoder learns to
+compress the variation between the found artifacts into
+a lower-dimensional space. The newly trained encoder
+is then used as the basis for a new distance function,
+transforming the criteria for the next exploration phase.
+In the current paper, we apply DeLeNoX to the creation
+of spaceships suitable for use in two-dimensional
+arcade-style computer games, a representative problem
+in procedural content generation in games. We also situate
+DeLeNoX in relation to the distinction between exploratory
+and transformational creativity, and in relation
+to Schmidhuber’s theory of creativity through the drive
+for compression progress.
+</blockquote>
+
+http://julian.togelius.com/Liapis2013Transforming.pdf
+
+http://antoniosliapis.com/research/novsearch.php
+
+```
+@inproceedings{liapis2013transforming,
+  title={Transforming exploratory creativity with DeLeNoX},
+  author={Liapis, Antonios and Mart{\i}nez, H{\'e}ctor P and Togelius, Julian and Yannakakis, Georgios N},
+  booktitle={Proceedings of the Fourth International Conference on Computational Creativity},
+  pages={56--63},
+  year={2013},
+  organization={AAAI Press}
 }
 ```
 
