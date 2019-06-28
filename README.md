@@ -7,7 +7,7 @@ A collection of papers on divergence and quality diversity.
 ## Table of Contents
 
 - [What is it?](#what-is-it)
-- [Divergent Search algorithms](#divergent-algorithms)
+- [Divergent Search algorithms](#divergent-search-algorithms)
 - [Novelty Search](#novelty-search)
 - [Curiosity Search](#Curiosity-Search)
 - [Surprise Search](#surprise-search)
