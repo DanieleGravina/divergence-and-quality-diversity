@@ -7,7 +7,7 @@ A collection of papers on divergence and quality diversity.
 ## Table of Contents
 
 - [What is it?](#what-is-it)
-- [Divergent algorithms](#divergent-algorithms)
+- [Divergent Search algorithms](#divergent-algorithms)
 - [Novelty Search](#novelty-search)
 - [Curiosity Search](#Curiosity-Search)
 - [Surprise Search](#surprise-search)
@@ -28,7 +28,7 @@ A collection of papers on divergence and quality diversity.
 - [Constrained Map-Elites](#constrained-map-elites)
 - [Map-Elites with Sliding Boundaries](#map-elites-with-sliding-boundaries)
 
-## Divergent algorithms
+## Divergent Search Algorithms
 
 ### Novelty Search
 
