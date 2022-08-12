@@ -23,6 +23,7 @@ A collection of papers on divergence and quality diversity.
 - [DeLeNoX](#deLeNoX)
 - [Quality and Diversity Optimization: A Unifying Modular Framework](#quality-and-diversity-optimization)
 - [Surrogate-Assisted Illumination (SAIL)](#surrogate-assisted-illumination-(sail))
+- [Surrogate-Assisted Phenotypic Niching (SPHEN)](#surrogate-assisted-phenotypic-niching-(SPHEN))
 - [Quality Diversity Through Surprise](#quality-diversity-through-surprise)
 - [Go-Explore](#go-explore)
 - [Constrained Map-Elites](#constrained-map-elites)
