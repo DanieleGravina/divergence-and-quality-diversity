@@ -23,6 +23,7 @@ A collection of papers on divergence and quality diversity.
 - [DeLeNoX](#deLeNoX)
 - [Quality and Diversity Optimization: A Unifying Modular Framework](#quality-and-diversity-optimization)
 - [Surrogate-Assisted Illumination (SAIL)](#surrogate-assisted-illumination-(sail))
+- [Surrogate-Assisted Phenotypic Niching](#surrogate-assisted-phenotypic-niching)
 - [Quality Diversity Through Surprise](#quality-diversity-through-surprise)
 - [Go-Explore](#go-explore)
 - [Constrained Map-Elites](#constrained-map-elites)
@@ -552,6 +553,28 @@ https://arxiv.org/pdf/1806.05865.pdf
   pages = {381-410},
   year = {2018}
 }
+```
+
+### Surrogate-Assisted Phenotypic Niching
+
+<b>Abstract:</b>
+
+<blockquote>
+In complex, expensive optimization domains we often narrowly focus on finding high performing solutions, instead of expanding our understanding of the domain itself. But what if we could quickly understand the complex behaviors that can emerge in said domains instead? We introduce surrogate-assisted phenotypic niching, a quality diversity algorithm which allows to discover a large, diverse set of behaviors by using computationally expensive phenotypic features. In this work we discover the types of air flow in a 2D fluid dynamics optimization problem. A fast GPU-based fluid dynamics solver is used in conjunction with surrogate models to accurately predict fluid characteristics from the shapes that produce the air flow. We show that these features can be modeled in a data-driven way while sampling to improve performance, rather than explicitly sampling to improve feature models. Our method can reduce the need to run an infeasibly large set of simulations while still being able to design a large diversity of air flows and the shapes that cause them. Discovering diversity of behaviors helps engineers to better understand expensive domains and their solutions.
+</blockquote>
+
+https://arxiv.org/pdf/2105.04256
+
+```
+@inproceedings{hagg2020designing,
+  title={Designing air flow with surrogate-assisted phenotypic niching},
+  author={Hagg, Alexander and Wilde, Dominik and Asteroth, Alexander and B{\"a}ck, Thomas},
+  booktitle={International Conference on Parallel Problem Solving from Nature},
+  pages={140--153},
+  year={2020},
+  organization={Springer}
+}
+
 ```
 ### Quality Diversity Through Surprise
 
