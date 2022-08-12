@@ -27,6 +27,9 @@ A collection of papers on divergence and quality diversity.
 - [Go-Explore](#go-explore)
 - [Constrained Map-Elites](#constrained-map-elites)
 - [Map-Elites with Sliding Boundaries](#map-elites-with-sliding-boundaries)
+- [TAXONS](#taxons)
+- [SERENE](#serene)
+- [STAX](#stax)
 
 ## Divergent Search Algorithms
 
@@ -633,5 +636,66 @@ https://arxiv.org/pdf/1904.10656.pdf
   organization={ACM}
 }
 ```
+
+### TAXONS
+
+<b>Abstract:</b>
+
+<blockquote>
+Performing Reinforcement Learning in sparse rewards settings, with very little prior knowledge, is a challenging problem since there is no signal to properly guide the learning process. In such situations, a good search strategy is fundamental. At the same time, not having to adapt the algorithm to every single problem is very desirable. Here we introduce TAXONS, a Task Agnostic eXploration of Outcome spaces through Novelty and Surprise algorithm. Based on a population-based divergent-search approach, it learns a set of diverse policies directly from high-dimensional observations, without any task-specific information. TAXONS builds a repertoire of policies while training an autoencoder on the high-dimensional observation of the final state of the system to build a low-dimensional outcome space. The learned outcome space, combined with the reconstruction error, is used to drive the search for new policies. Results show that TAXONS can find a diverse set of controllers, covering a good part of the ground-truth outcome space, while having no information about such space.
+</blockquote>
+
+https://arxiv.org/ftp/arxiv/papers/1909/1909.05508.pdf
+
+```
+@inproceedings{paolo2020unsupervised,
+  title={Unsupervised learning and exploration of reachable outcome space},
+  author={Paolo, Giuseppe and Laflaquiere, Alban and Coninx, Alexandre and Doncieux, Stephane},
+  booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={2379--2385},
+  year={2020},
+  organization={IEEE}
+}
+```
+
+### SERENE
+
+<b>Abstract:</b>
+
+<blockquote>
+Reward-based optimization algorithms require both exploration, to find rewards, and exploitation, to maximize performance. The need for efficient exploration is even more significant in sparse reward settings, in which performance feedback is given sparingly, thus rendering it unsuitable for guiding the search process. In this work, we introduce the SparsE Reward Exploration via Novelty and Emitters (SERENE) algorithm, capable of efficiently exploring a search space, as well as optimizing rewards found in potentially disparate areas. Contrary to existing emitters-based approaches, SERENE separates the search space exploration and reward exploitation into two alternating processes. The first process performs exploration through Novelty Search, a divergent search algorithm. The second one exploits discovered reward areas through emitters, i.e. local instances of population-based optimization algorithms. A meta-scheduler allocates a global computational budget by alternating between the two processes, ensuring the discovery and efficient exploitation of disjoint reward areas. SERENE returns both a collection of diverse solutions covering the search space and a collection of high-performing solutions for each distinct reward area. We evaluate SERENE on various sparse reward environments and show it compares favorably to existing baselines.
+</blockquote>
+
+https://arxiv.org/pdf/2102.03140.pdf
+
+```
+@inproceedings{paolo2021sparse,
+  title={Sparse reward exploration via novelty search and emitters},
+  author={Paolo, Giuseppe and Coninx, Alexandre and Doncieux, St{\'e}phane and Laflaqui{\`e}re, Alban},
+  booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+  pages={154--162},
+  year={2021}
+}
+```
+
+### STAX
+
+<b>Abstract:</b>
+
+<blockquote>
+Learning optimal policies in sparse rewards settings is difficult as the learning agent has little to no feedback on the quality of its actions. In these situations, a good strategy is to focus on exploration, hopefully leading to the discovery of a reward signal to improve on. A learning algorithm capable of dealing with this kind of settings has to be able to (1) explore possible agent behaviors and (2) exploit any possible discovered reward. Efficient exploration algorithms have been proposed that require to define a behavior space, that associates to an agent its resulting behavior in a space that is known to be worth exploring. The need to define this space is a limitation of these algorithms. In this work, we introduce STAX, an algorithm designed to learn a behavior space on-the-fly and to explore it while efficiently optimizing any reward discovered. It does so by separating the exploration and learning of the behavior space from the exploitation of the reward through an alternating two-steps process. In the first step, STAX builds a repertoire of diverse policies while learning a low-dimensional representation of the high-dimensional observations generated during the policies evaluation. In the exploitation step, emitters are used to optimize the performance of the discovered rewarding solutions. Experiments conducted on three different sparse reward environments show that STAX performs comparably to existing baselines while requiring much less prior information about the task as it autonomously builds the behavior space.
+</blockquote>
+
+https://arxiv.org/pdf/2111.01919.pdf
+
+```
+@article{paolo2021discovering,
+  title={Discovering and Exploiting Sparse Rewards in a Learned Behavior Space},
+  author={Paolo, Giuseppe and Coninx, Alexandre and Laflaqui{\`e}re, Alban and Doncieux, Stephane},
+  journal={arXiv preprint arXiv:2111.01919},
+  year={2021}
+}
+```
+
 ----
 
